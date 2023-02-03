@@ -80,4 +80,6 @@ def get_text_messages(message):
         markup.add(btn1, btn2)
         bot.send_message(message.from_user.id, "🇷🇺 Выберите язык / 🇬🇧 Choose your language", reply_markup=markup)
 
+
+dddd
 bot.polling(none_stop=True, interval=0)
